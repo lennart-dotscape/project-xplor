@@ -43,6 +43,13 @@ function setMap(L: any) {
 	view.value.lat = props.view.lat;
 	view.value.lng = props.view.lng;
 
+	const customIcon = L.icon({
+		iconUrl: "/images/custom-marker.svg",
+		iconSize: [40, 40], // size of the icon
+		iconAnchor: [22, 44], // point of the icon which will correspond to marker's location
+		popupAnchor: [-3, -76], // point from which the popup should open relative to the iconAnchor
+	});
+
 	const leafletMap = L.map("map").setView([view.value.lat, view.value.lng], 13);
 	map.value = leafletMap;
 
@@ -55,15 +62,25 @@ function setMap(L: any) {
 		routeWhileDragging: true,
 	}).addTo(leafletMap);
 
+	if (props.waypoints) {
+		for (let waypoint of props.waypoints) {
+			console.log(waypoint);
+			L.marker([waypoint.lat, waypoint.lng], { icon: customIcon }).addTo(leafletMap);
+		}
+	}
+
 	if (props.edit) {
-		setEditListeners(leafletMap, L);
+		setEditListeners(leafletMap, L, customIcon);
 	}
 }
 
-function setEditListeners(leafletMap: Map, L: any) {
+function setEditListeners(leafletMap: Map, L: any, customIcon: any) {
 	leafletMap.on("click", (event: L.LeafletMouseEvent) => {
 		const { lat, lng } = event.latlng;
 		const waypoint = L.latLng(lat, lng);
+		console.log(waypoint);
+
+		L.marker([waypoint.lat, waypoint.lng], { icon: customIcon }).addTo(leafletMap);
 
 		waypoints.value.push(waypoint);
 		routeControl.value.setWaypoints(waypoints.value);

@@ -36,3 +36,7 @@ body {
 .leaflet-right {
 	display: none;
 }
+
+.leaflet-marker-draggable {
+	display: none !important;
+}
