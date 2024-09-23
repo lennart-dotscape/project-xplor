@@ -1,0 +1,13 @@
+{
+	"slug": "route-3",
+	"title": "Verkenning van het Eiland van Brienenoord",
+	"description": "De wandelroute door Brienenoord Park is een prachtige en rustige tocht in Rotterdam, waar je kunt genieten van de natuurlijke schoonheid en de groene omgeving. Dit park, gelegen op het Eiland van Brienenoord, biedt een ideale ontsnapping aan de drukte van de stad.",
+	"image": "https://openrotterdam.nl/wp-content/uploads/2022/09/Floor_besuijen_waterweg5.jpg",
+	"type": "Walk",
+	"distance": 3.5,
+	"waypoints": [
+		{ "lat": 51.897678, "lng": 4.526012 },
+		{ "lat": 51.899774, "lng": 4.529023 }
+	],
+	"creator": "user-1"
+}

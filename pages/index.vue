@@ -1,0 +1,4 @@
+<template>
+	<Hero />
+	<RoutesList />
+</template>

@@ -1,0 +1,13 @@
+{
+	"slug": "route-5",
+	"title": "Avontuurlijk Mountainbiken in Limburg",
+	"description": "Ontdek de uitdagende mountainbikeroutes in het glooiende landschap van Limburg. Deze route biedt een mix van technische trails en mooie uitzichten, ideaal voor de fanatieke mountainbiker.",
+	"image": "https://www.trail-addicts.com/wp-content/uploads/2022/01/Up-Down-x-Off-Trails-Limburg-01678.jpg",
+	"type": "Mountainbike",
+	"distance": 35,
+	"waypoints": [
+		{ "lat": 50.882905, "lng": 5.973502 },
+		{ "lat": 50.883621, "lng": 5.945645 }
+	],
+	"creator": "user-1"
+}

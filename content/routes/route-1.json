@@ -1,0 +1,16 @@
+{
+	"slug": "route-1",
+	"title": "Rondje langs de Rotte",
+	"description": "De fietsroute langs de Rotte is een prachtige tocht die je van het drukke centrum van Rotterdam meeneemt naar de rustige, groene omgeving buiten de stad. Deze route is ideaal voor fietsers die op zoek zijn naar een afwisselende rit vol mooie uitzichten, natuur en pittoreske dorpjes.",
+	"image": "https://www.ookditisderotte.nl/images/activiteiten/Natuur/De_Rotte/Pagina_De_Rotte.jpg",
+	"type": "Roadbike",
+	"distance": 42.22,
+	"waypoints": [
+		{ "lat": 51.923426, "lng": 4.488136 },
+		{ "lat": 51.940378, "lng": 4.511978 },
+		{ "lat": 51.9777, "lng": 4.572414 },
+		{ "lat": 51.955158, "lng": 4.537647 },
+		{ "lat": 51.923426, "lng": 4.488136 }
+	],
+	"creator": "user-1"
+}

@@ -1,0 +1,13 @@
+{
+	"slug": "route-6",
+	"title": "De Legendarische Beklimming van Alpe d'Huez",
+	"description": "Klim naar grote hoogtes op de beroemde Alpe d'Huez. Deze route is een iconische uitdaging voor elke wielrenner, met zijn 21 haarspeldbochten en stijgingspercentages tot wel 12%.",
+	"image": "https://pub-f154438dceef491ba243fbee53912d51.r2.dev/wp-content/uploads/2022/07/13174839/TDF_AlpedHuez.jpg",
+	"type": "Roadbike",
+	"distance": 14,
+	"waypoints": [
+		{ "lat": 45.091331, "lng": 6.067978 },
+		{ "lat": 45.096157, "lng": 6.032274 }
+	],
+	"creator": "user-1"
+}

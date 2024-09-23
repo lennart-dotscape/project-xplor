@@ -1,0 +1,13 @@
+{
+	"slug": "route-2",
+	"title": "Rondje Kralingse Plas",
+	"description": "De wandelroute rond de Kralingse Plas is een prachtige en ontspannen tocht die je meeneemt door het mooie Kralingse Bos en langs het schilderachtige meer. Deze route is perfect voor zowel natuurliefhebbers als stadsbewoners die willen ontsnappen aan de drukte van Rotterdam.",
+	"image": "https://www.mustsee.today/wp-content/uploads/2016/08/3-Kralingse-Plas-Claire-Droppert-1.jpg",
+	"type": "Walk",
+	"distance": 5.0,
+	"waypoints": [
+		{ "lat": 51.940378, "lng": 4.511978 },
+		{ "lat": 51.935874, "lng": 4.521771 }
+	],
+	"creator": "user-1"
+}

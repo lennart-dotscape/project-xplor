@@ -1,0 +1,13 @@
+{
+	"slug": "route-4",
+	"title": "Wielrennen door de Utrechtse Heuvelrug",
+	"description": "Deze uitdagende wielrenroute neemt je mee door de prachtige bossen en glooiende heuvels van de Utrechtse Heuvelrug. Een perfecte rit voor wielrenners die houden van een afwisselend parcours met enkele steile beklimmingen en snelle afdalingen.",
+	"image": "https://nationaalpark.nl/wp-content/uploads/NPUHR-1356-Kwintelooijen-small.jpg",
+	"type": "Roadbike",
+	"distance": 65,
+	"waypoints": [
+		{ "lat": 52.042254, "lng": 5.312098 },
+		{ "lat": 52.052631, "lng": 5.330712 }
+	],
+	"creator": "user-1"
+}
